@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+div{
+	width: 20%;
+	/*background-color: green;*/
+	height: 50%;
+	margin: 5px;
+}
+
+.div2{
+	position: absolute;
+	margin-left: 10%;
+	background-color: blue;
+
+}
+
+.div2:hover{
+	width: 50%;
+	color: black;
+	/*transition: 1s;*/
+}
+.div3{
+	color: red;
+	width: 500px;
+	position: relative;
+	display: inline-block;
+	top: 200px;
+	height: 100px;
+	z-index: 4;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+
+}
